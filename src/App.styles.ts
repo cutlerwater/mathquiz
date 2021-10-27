@@ -27,7 +27,7 @@ export const Wrapper = styled.div`
     color: #fff;
   }
   .score {
-    color: #fff;
+    color: #f00;
     font-size: 2rem;
     margin: 0;
   }
@@ -46,6 +46,8 @@ export const Wrapper = styled.div`
     text-align: center;
     margin: 20px;
   }
+  a { color: #f00;}
+  a:hover { color: #f00;}
   .start, .next {
     cursor: pointer;
     background: linear-gradient(180deg, #ffffff, #ffcc91);
